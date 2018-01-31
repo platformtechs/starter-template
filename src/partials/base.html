@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class="no-js gt-ie9 ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js gt-ie9"> <!--<![endif]-->
+  <head>
+    <!--
+
+      Project: Happy Periods (NGO)
+      Version: 0.0.1
+      Author: Platform Tech Solutions
+
+    //-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- #DNS prefetching -->
+    <link rel="dns-prefetch" href="//ajax.googleapis.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/">
+
+    <!-- #Asset Prefetching -->
+    <!-- Fetch and Download Assets before requested by the user  -->
+    <!-- http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/#section:resource-prefetching -->
+    <link rel="prefetch" href="./img/">
+
+    <!-- #Page Prefetching -->
+    <!-- http://calendar.perfplanet.com/2012/speed-up-your-site-using-prefetching -->
+    <link rel="prefetch" href="index.html">
+
+    <!-- #Typekit -->
+
+    <title>Happy Periods</title>
+    <meta name="description" content="">
+    <meta name="robots" content="all">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, user-scalable=1, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+    <!-- http://mathiasbynens.be/notes/rel-shortcut-icon -->
+    <!-- http://mathiasbynens.be/notes/touch-icons -->
+
+
+    <!-- CSS, you gotta have style -->
+    <link rel="stylesheet" href="vendor/css/bootstrap.css">
+  <!--  <link rel="stylesheet" href="vendor/css/bootstrap-grid.css">  -->
+    <link rel="stylesheet" href="vendor/css/tether.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--  <link rel="stylesheet" href="vendor/css/fontawesome-all.css">  -->
+  <!--  <link rel="stylesheet" href="vendor/css/animations.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!--   <script src="vendor/js/jquery-1.11.3.min.js"></script> -->
+    <!-- Modernizer, cause some browsers suck -->
+    <script src="vendor/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"> </script>
+
+    </head>
+    <body>
+      <script src="js/app.js"></script>
+    {% block body %}{% endblock %}
+  </body>
+  </html>
